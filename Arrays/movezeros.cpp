@@ -24,7 +24,12 @@ for(int i=j+1;i<n;i++){
         swap(arr[i],arr[j]);
         j++;
     }
-    cout<<arr[i]<<" ";
+    
+   
 }
+for(int i=0;i<n;i++){
+    cout<<arr[i]<<" ";  
+}
+cout<<endl;
     return 0;
 }
